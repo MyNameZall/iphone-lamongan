@@ -281,10 +281,10 @@
 }
 
 .hero__phone-img {
-  width: 520px;
-  height: auto;
-  max-width: none;
+  width: auto;
+  height: 115%;
   object-fit: contain;
+  max-width: none;
   filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.55)) drop-shadow(0 0 25px rgba(139, 92, 246, 0.25));
 }
 
@@ -412,12 +412,6 @@
     height: 310px;
   }
 
-  .hero__phone-img {
-    width: 140%;
-    height: auto;
-    max-width: none;
-  }
-
   .hero__chip--1 { left: -10%; top: 5%; font-size: 0.72rem; padding: 0.4rem 0.8rem; }
   .hero__chip--2 { right: -10%; top: 40%; font-size: 0.72rem; padding: 0.4rem 0.8rem; }
   .hero__chip--3 { left: -5%; bottom: 8%; font-size: 0.72rem; padding: 0.4rem 0.8rem; }
@@ -431,12 +425,6 @@
   .hero__phone-wrapper {
     width: 180px;
     height: 252px;
-  }
-
-  .hero__phone-img {
-    width: 130%;
-    height: auto;
-    max-width: none;
   }
 
   .hero__chip--1,
