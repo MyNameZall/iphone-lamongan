@@ -5,7 +5,7 @@ import './Navbar.css'
 const WHATSAPP_NUMBER = '6281233722290'
 const WHATSAPP_MSG = encodeURIComponent('Halo iPhone Store Lamongan, saya ingin bertanya tentang produk Anda.')
 
-export default function Navbar(): JSX.Element {
+export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState<boolean>(false)
   const [isMobileOpen, setIsMobileOpen] = useState<boolean>(false)
   const [activeSection, setActiveSection] = useState<string>('beranda')

@@ -3,7 +3,7 @@ import { TESTIMONIALS } from '../data'
 import type { Testimonial } from '../types'
 import './Testimonials.css'
 
-function StarRating({ rating }: { rating: number }): JSX.Element {
+function StarRating({ rating }: { rating: number }) {
   return (
     <div className="stars" role="img" aria-label={`Rating ${rating} dari 5 bintang`}>
       {Array.from({ length: 5 }).map((_, i) => (
@@ -17,7 +17,7 @@ function StarRating({ rating }: { rating: number }): JSX.Element {
   )
 }
 
-export default function Testimonials(): JSX.Element {
+export default function Testimonials() {
   const [activeIndex, setActiveIndex] = useState<number>(0)
   const [isPaused, setIsPaused] = useState<boolean>(false)
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null)

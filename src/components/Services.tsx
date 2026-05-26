@@ -4,7 +4,7 @@ import './Services.css'
 
 const WHATSAPP_NUMBER = '6281233722290'
 
-export default function Services(): JSX.Element {
+export default function Services() {
   const handleWhatsApp = (service: Service): void => {
     const msg = encodeURIComponent(`Halo iPhone Store Lamongan, saya ingin mengetahui lebih lanjut tentang layanan: ${service.title}`)
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`, '_blank', 'noopener,noreferrer')

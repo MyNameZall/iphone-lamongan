@@ -3,7 +3,7 @@ import './Hero.css'
 const WHATSAPP_NUMBER = '6281233722290'
 const WHATSAPP_MSG = encodeURIComponent('Halo iPhone Store Lamongan, saya ingin bertanya tentang produk Anda.')
 
-export default function Hero(): JSX.Element {
+export default function Hero() {
   const handleScrollTo = (id: string): void => {
     const el = document.getElementById(id)
     if (el) {

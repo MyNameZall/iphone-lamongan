@@ -18,7 +18,7 @@ const BADGE_LABELS: Record<NonNullable<Product['badge']>, { label: string; class
   limited:   { label: 'Terbatas', className: 'badge--limited' },
 }
 
-export default function Products(): JSX.Element {
+export default function Products() {
   const [activeCategory, setActiveCategory] = useState<ProductCategory>('semua')
 
   const filtered: Product[] = activeCategory === 'semua'

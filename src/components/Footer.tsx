@@ -11,7 +11,7 @@ const SOCIAL_LINKS = [
   { id: 'tiktok',    icon: 'fa-brands fa-tiktok',     href: 'https://tiktok.com',    label: 'TikTok iPhone Store Lamongan' },
 ]
 
-export default function Footer(): JSX.Element {
+export default function Footer() {
   const year = new Date().getFullYear()
 
   const handleNavClick = (href: string): void => {

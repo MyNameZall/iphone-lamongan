@@ -10,7 +10,7 @@ import Testimonials from './components/Testimonials'
 import Location from './components/Location'
 import Footer from './components/Footer'
 
-export default function App(): JSX.Element {
+export default function App() {
   // Inisialisasi animasi scroll reveal
   useScrollReveal()
 

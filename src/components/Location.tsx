@@ -9,7 +9,7 @@ const STORE_HOURS = [
   { day: 'Minggu',        hours: '09.00 - 21.00 WIB' },
 ]
 
-export default function Location(): JSX.Element {
+export default function Location() {
   const { isOpen, statusText, nextStatus } = useStoreStatus()
 
   return (

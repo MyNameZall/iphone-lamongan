@@ -2,7 +2,7 @@ import { TRUST_BADGES } from '../data'
 import type { TrustBadge } from '../types'
 import './TrustBadges.css'
 
-export default function TrustBadges(): JSX.Element {
+export default function TrustBadges() {
   return (
     <section className="trust section" aria-label="Keunggulan iPhone Store Lamongan">
       <div className="container">
